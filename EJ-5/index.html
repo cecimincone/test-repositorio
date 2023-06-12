@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+
+       body { background-color: rgb(212, 193, 165);
+
+        }
+    </style>
+    
+</head>
+<body>
+    <form id="formulario" method="GET" action="#">nombre </form>
+
+   <input
+            type="text"
+            class="form-input"
+            id="resetear"
+            name="item"
+           
+           
+           >
+
+    <form id="formulario" method="GET" action="#">direccion</form>
+
+    <input
+    type="text"
+    class="form-input"
+    id="item"
+    name="item"
+>
+    <form id="formulario" method="GET" action="#">telefono</form>
+
+    <input
+    type="text"
+    class="form-input"
+    id="item-input"
+    name="item"
+   ><br><br>
+       </form>
+      <button id="submit">Submit</button>
+     
+      <button id="reset">Reset</button>
+       
+      
+    <script>
+     document.getElementById("submit").onclick = function(){ alert("se enviaran los datos")
+     };
+     document.getElementById("reset").onclick = function(){ alert("se borraran los datos")
+     };
+     </script>
+
+</body>
+</html>
